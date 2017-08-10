@@ -1,0 +1,11 @@
+{
+    "boilerplate.components.Header.home": "Accueil",
+    "boilerplate.components.Header.contact": "Contact",
+
+    "app.components.HomePage.header": "Accueil :)",
+
+    "app.components.ContactPage.header": "Contact :)",
+    "app.components.ContactPage.introduction": "Je réponds avec plaisir à vos interrogations et me tiens à votre disposition pour vos demandes de devis.<br>Utilisez simplement le formulaire ci-dessous pour m'envoyer un message contenant toutes les questions que vous pouvez vous poser à propos de votre projet Web.",
+
+    "boilerplate.components.Footer.copyright": "Tous droits réservés"
+}
