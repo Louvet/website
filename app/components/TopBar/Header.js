@@ -6,7 +6,7 @@ export default styled.header`
   top: 0;
   left: 0;
 
-  ${media.phone``}
-  ${media.tablet``}
-  ${media.desktop`position: static;`}
+  ${media.xs``}
+  ${media.sm``}
+  ${media.md`position: static;`}
 `;

@@ -8,9 +8,9 @@ const Div = styled.div`
   background: rgba(255, 255, 255, 1);
   padding: 0 5px;
 
-  ${media.phone`padding: 0 10px;`}
-  ${media.tablet`padding: 0 15px;`}
-  ${media.desktop`padding: 0 30px;`}
+  ${media.xs`padding: 0 10px;`}
+  ${media.sm`padding: 0 15px;`}
+  ${media.lg`padding: 0 30px;`}
 `;
 
 
@@ -46,6 +46,8 @@ export default class Wrapper extends React.PureComponent { // eslint-disable-lin
   }
 
   componentDidMount() {
+    
+    console.log(media)
     const xxs = window.matchMedia('all and (max-width: 479px)');
     const xs = window.matchMedia('all and (min-width: 480px) and (max-width: 767px)');
     const sm = window.matchMedia('all and (min-width: 768px) and (max-width: 1023px)');
